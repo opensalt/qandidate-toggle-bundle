@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Qandidate\Bundle\ToggleBundle\Tests\Functional;
 
-use Symfony\Component\Security\Core\Authentication\Token\AnonymousToken;
+use Qandidate\Bundle\ToggleBundle\Tests\AnonymousToken;
 
 class ContextFactoryTest extends WebTestCase
 {

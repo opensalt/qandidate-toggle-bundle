@@ -16,7 +16,7 @@ namespace Qandidate\Bundle\ToggleBundle\Tests\Context;
 use PHPUnit\Framework\TestCase;
 use Qandidate\Bundle\ToggleBundle\Context\UserContextFactory;
 use Qandidate\Bundle\ToggleBundle\Tests\TokenStorage;
-use Symfony\Component\Security\Core\Authentication\Token\AnonymousToken;
+use Qandidate\Bundle\ToggleBundle\Tests\AnonymousToken;
 
 class UserContextFactoryTest extends TestCase
 {
