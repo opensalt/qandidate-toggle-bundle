@@ -38,7 +38,7 @@ class ToggleTwigExtension extends AbstractExtension
     /**
      * {@inheritdoc}
      */
-    public function getFunctions()
+    public function getFunctions(): array
     {
         return [
             new TwigFunction('feature_is_active', [$this, 'is_active']),
@@ -48,7 +48,7 @@ class ToggleTwigExtension extends AbstractExtension
     /**
      * {@inheritdoc}
      */
-    public function getTests()
+    public function getTests(): array
     {
         return [
             new TwigTest('active feature', [$this, 'is_active']),
